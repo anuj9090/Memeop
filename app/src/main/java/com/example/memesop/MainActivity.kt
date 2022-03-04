@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
         val url = "https://meme-api.herokuapp.com/gimme"
         val intent = Intent(Intent.ACTION_SEND)
         intent.type = "text/plain"
-        intent.putExtra(Intent.EXTRA_TEXT,"oye lawde yeh meme dekh, kitna kra hai $url")
+        intent.putExtra(Intent.EXTRA_TEXT,"oye bhai yeh meme dekh,  $url")
         val chooser = Intent.createChooser(intent, "Kayse share krna hai bidulog")
         startActivity(chooser)
 
